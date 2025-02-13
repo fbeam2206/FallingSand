@@ -10,7 +10,7 @@
 #define ACC 450
 #define FRIC 450
 #define MAXCOUNT 500
-#define RADIUS 20 
+#define RADIUS 6
 #define FLOOR 795
 
 #ifndef zero

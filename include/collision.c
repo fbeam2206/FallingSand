@@ -1,4 +1,5 @@
 #include <sand.h>
+
 void Collision(sand* grain, sand* compGrain){
   int i = 0;
   while(CheckCollisionCircles(grain->pos, RADIUS, compGrain->pos, RADIUS)){
