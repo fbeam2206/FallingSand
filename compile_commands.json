@@ -1,0 +1,5 @@
+[
+  { "directory": "/mnt/c/Users/GrahamBeam/Documents/Programming/game/fall",
+    "arguments": ["/usr/bin/clang++", "-Irelative", "-DSOMEDEF=With spaces, quotes and \\-es.", "-c", "-o", "main.o", "main.c", "-I /include/"],
+    "file": "main.c" },
+]
