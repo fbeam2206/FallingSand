@@ -9,7 +9,7 @@ Rectangle rec = {
 };
 
 
-void MainMenu(Camera2D camera){
+void StartMenu(Camera2D camera){
   Vector2 clickCord = {0,0};
   int menuWidth = MeasureText("MENU", 48);
   int startWidth = MeasureText("START", 48);
@@ -83,7 +83,7 @@ int main(){
   SetTargetFPS(60);
   GetFontDefault();
   InitWindow(WIDTH, HEIGHT, "Window");
-  MainMenu(camera);
+  StartMenu(camera);
   //Image sandImage = LoadImage("assets/spatialai.png");
   //Texture2D sandTex = LoadTextureFromImage(sandImage);
 
