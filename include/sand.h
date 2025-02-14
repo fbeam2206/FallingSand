@@ -12,6 +12,7 @@
 #define MAXCOUNT 500
 #define RADIUS 6
 #define FLOOR 795
+#define FONT_SIZE 48
 
 #ifndef zero
   #define zero {0,0}
